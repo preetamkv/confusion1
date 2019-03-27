@@ -34,7 +34,7 @@ function RenderComments({comments}) {
 		});
 		return (
 			<div>
-				<h4> Comments</h4>
+				<h4> Comments</h4>cd
 				{_comment}
 			</div>
 		);
