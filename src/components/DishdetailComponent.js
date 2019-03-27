@@ -47,6 +47,7 @@ function RenderComments({comments}) {
 }
 
 const Dishdetail = (props) => {
+	if(props.selectedDish != null) {
 	return (
 		<div class="container">
 			<div className="row">
@@ -60,7 +61,7 @@ const Dishdetail = (props) => {
 				</div>
 			</div>
 		</div>
-	);
+	);}
 }
 
 export default Dishdetail;
